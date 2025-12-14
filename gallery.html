@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View the portfolio of Lashay's Empire. Browse beautiful hair styles including braids, locs, roller sets, ponytails, and more.">
+  <title>Gallery | Lashay's Empire | Love Your Crown</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="crown">👑</span> Lashay's Empire</a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="contact.html#booking" class="btn btn-gold">Book Now</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <p class="subtitle">My Work</p>
+      <h1>Style Gallery</h1>
+      <p>A showcase of beautiful styles created for my amazing clients. 👑</p>
+    </div>
+  </header>
+
+  <!-- Gallery Grid -->
+  <section class="section" style="background: var(--color-soft-pink);">
+    <div class="container">
+      <div class="gallery-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-md);">
+        
+        <!-- Stitch Braids -->
+        <div class="gallery-item animate-on-scroll" style="aspect-ratio: auto; border-radius: 15px;">
+          <img src="images/stitch-braids.jpeg" alt="Stitch braids with beautifully laid edges" style="border-radius: 15px;">
+        </div>
+        
+        <!-- Roller Set 1 -->
+        <div class="gallery-item animate-on-scroll" style="aspect-ratio: auto; border-radius: 15px;">
+          <img src="images/roller-set-1.jpeg" alt="Beautiful bouncy roller set curls" style="border-radius: 15px;">
+        </div>
+        
+        <!-- Ponytail -->
+        <div class="gallery-item animate-on-scroll" style="aspect-ratio: auto; border-radius: 15px;">
+          <img src="images/ponytail-curly.jpeg" alt="Sleek ponytail with curly texture" style="border-radius: 15px;">
+        </div>
+        
+        <!-- Cornrow Bun -->
+        <div class="gallery-item animate-on-scroll" style="aspect-ratio: auto; border-radius: 15px;">
+          <img src="images/cornrow-bun.jpeg" alt="Cornrows styled into a spiral bun" style="border-radius: 15px;">
+        </div>
+        
+        <!-- Starter Locs -->
+        <div class="gallery-item animate-on-scroll" style="aspect-ratio: auto; border-radius: 15px;">
+          <img src="images/starter-locs.jpeg" alt="Fresh starter locs" style="border-radius: 15px;">
+        </div>
+        
+        <!-- Roller Set 2 -->
+        <div class="gallery-item animate-on-scroll" style="aspect-ratio: auto; border-radius: 15px;">
+          <img src="images/roller-set-2.jpeg" alt="Classic roller set style" style="border-radius: 15px;">
+        </div>
+        
+        <!-- Kids Braids -->
+        <div class="gallery-item animate-on-scroll" style="aspect-ratio: auto; border-radius: 15px;">
+          <img src="images/kids-braids-beads.jpeg" alt="Kids braids with colorful beads" style="border-radius: 15px;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Style Categories -->
+  <section class="section" style="background: var(--color-white);">
+    <div class="container">
+      <div class="services-header">
+        <p class="subtitle">Styles Featured</p>
+        <h2>What You See Here</h2>
+      </div>
+      <div class="services-grid" style="max-width: 1000px; margin: 0 auto;">
+        <div class="service-card text-center">
+          <h3>✨ Stitch Braids</h3>
+          <p>Feed-in braids with detailed parting and perfectly laid edges.</p>
+        </div>
+        <div class="service-card text-center">
+          <h3>💫 Roller Sets</h3>
+          <p>Classic, bouncy curls that frame the face beautifully.</p>
+        </div>
+        <div class="service-card text-center">
+          <h3>🎀 Ponytails</h3>
+          <p>Sleek and polished with various textures — curly, straight, or wavy.</p>
+        </div>
+        <div class="service-card text-center">
+          <h3>🌀 Cornrows</h3>
+          <p>Creative designs and styles, from classic to intricate patterns.</p>
+        </div>
+        <div class="service-card text-center">
+          <h3>🌱 Locs</h3>
+          <p>Starter locs and retwists done with care and precision.</p>
+        </div>
+        <div class="service-card text-center">
+          <h3>👧 Kids Styles</h3>
+          <p>Fun, colorful braids with beads that kids love!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Instagram CTA -->
+  <section class="section" style="background: var(--gradient-brand);">
+    <div class="container text-center">
+      <p class="subtitle" style="color: var(--color-gold);">Follow Along</p>
+      <h2 style="color: var(--color-white);">See More on Instagram</h2>
+      <p style="color: rgba(255,255,255,0.9);">Follow @LashaysEmpire for daily inspiration, tips, and the latest styles.</p>
+      <a href="#" class="btn btn-gold" target="_blank" rel="noopener" style="margin-top: var(--space-sm);">
+        📸 Follow @LashaysEmpire
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section" style="background: var(--color-soft-pink);">
+    <div class="container text-center">
+      <p class="subtitle">Love What You See?</p>
+      <h2>Let's Create Your Perfect Style</h2>
+      <p>Book your appointment and let me bring your vision to life.</p>
+      <a href="contact.html#booking" class="btn btn-primary">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo"><span class="crown">👑</span> Lashay's Empire</a>
+          <p>Love Your Crown. Professional hair styling services in Little Rock, Arkansas.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li>Little Rock, AR</li>
+            <li>House Calls Available</li>
+            <li>Mon–Fri: 9 AM – 3 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Lashay's Empire. Love Your Crown. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
